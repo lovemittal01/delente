@@ -93,7 +93,7 @@ const Header = () => {
       </div>
 
       {isMenuOpen && (
-        <ul className="md:hidden absolute top-16 left-0 w-full bg-gray-900 flex flex-col items-start px-12 space-y-4 py-6">
+        <ul className="md:hidden absolute z-10 top-16 left-0 w-full bg-gray-900 flex flex-col items-start px-12 space-y-4 py-6">
           <li>
             <Link
               className="text-white hover:text-gray-300"

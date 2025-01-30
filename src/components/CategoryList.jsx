@@ -16,7 +16,7 @@ const CategoryList = ({ setCategory }) => {
           Categories
         </h2>
 
-        <div className="mt-6 grid grid-cols-2 gap-x-2 gap-y-2 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        <div className="mt-6 grid grid-cols-2 gap-x-2 gap-y-2 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 z-0">
           {categories.map((category) => (
             <div key={category} className="group relative">
               <button
